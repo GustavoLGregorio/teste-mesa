@@ -1,20 +1,10 @@
 ﻿using System;
 
+namespace TM;
+
 class TesteMesa1
 {
-	public static void Main(string[] args)
-	{
-		Console.WriteLine("TESTE DE MESA 1:1");
-		Teste1();
-
-		Console.WriteLine("TESTE DE MESA 1:2");
-		Teste2();
-
-		Console.WriteLine("TESTE DE MESA 1:3");
-		Teste3();
-	}
-
-	private static void Teste1()
+	public static void Teste1()
 	{
 		int[] v = new int[10];
 
@@ -36,7 +26,7 @@ class TesteMesa1
 		Console.WriteLine("Fim do loop\n\n");
 	}
 
-	private static void Teste2()
+	public static void Teste2()
 	{
 		int[] v = new int[10];
 		int a = 2;
@@ -59,7 +49,7 @@ class TesteMesa1
 		Console.Write($"v[{a}]: {v[a]}\n\n\n");
 	}
 
-	private static void Teste3()
+	public static void Teste3()
 	{
 		int[] v = new int[10];
 
