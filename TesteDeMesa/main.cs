@@ -53,8 +53,8 @@ class TesteMesa
 		}
 
 		Console.WriteLine("Fim do loop");
-		// ultima iteracao para mostrar a incrementando enquanto
-		// v[a] fica vazio pela sequencia do codigo
+		// ultimo print para mostrar 'a' incrementando enquanto
+		// 'v[a]' fica vazio pela sequencia do codigo
 		Console.Write($"a: {a}\t");
 		Console.Write($"v[{a}]: {v[a]}\n\n\n");
 	}
@@ -79,8 +79,8 @@ class TesteMesa
 		}
 
 		Console.WriteLine("Fim do loop");
-		// ultimo print para mostrar b indo de 5 para 7 pos loop
-		// enquanto v[7] fica vazio por ter ficado fora do loop
+		// ultimo print para mostrar 'b' indo de 5 para 7 pos loop
+		// enquanto 'v[b]' fica vazio por ter ficado fora do loop
 		Console.Write($"a: {a}\t");
 		Console.Write($"b: {b}\t");
 		Console.Write($"v[{b}]: {v[b]}\n\n\n");
