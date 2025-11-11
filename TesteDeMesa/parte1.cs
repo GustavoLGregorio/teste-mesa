@@ -22,8 +22,6 @@ class TesteMesa1
 			Console.Write($"c: {c}\t");
 			Console.Write($"v[{i}]: {v[i]}\n");
 		}
-
-		Console.WriteLine("Fim do loop\n\n");
 	}
 
 	public static void Teste2()
@@ -41,9 +39,7 @@ class TesteMesa1
 
 			a += 1;
 		}
-
-		Console.WriteLine("Fim do loop");
-		// ultimo print para mostrar 'a' incrementando enquanto
+		// ultimo print para mostrar 'a' incrementado enquanto
 		// 'v[a]' fica vazio pela sequencia do codigo
 		Console.Write($"a: {a}\t");
 		Console.Write($"v[{a}]: {v[a]}\n\n\n");

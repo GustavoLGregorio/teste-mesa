@@ -106,6 +106,6 @@ class TesteMesa2
 
 		valorFinal = valor * Math.Pow((1 + taxa), periodo);
 
-		// valor = Math.Pow((1 + taxa), periodo) / valorFinal;
+		// valor = valorFinal / Math.Pow((1 + taxa), periodo);
 	}
 }
