@@ -30,6 +30,13 @@ class Program
 		// Console.WriteLine("TESTE DE MESA 2:5");
 		// TesteMesa2.Teste5();
 
+		// Console.WriteLine("TESTE DE MESA 3:1");
+		// TesteMesa3.Teste6();
 
+		// Console.WriteLine("TESTE DE MESA 3:2");
+		// TesteMesa3.Teste7();
+		
+		// Console.WriteLine("TESTE DE MESA 3:3");
+		// TesteMesa3.Teste8();
 	}
 }
